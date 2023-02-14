@@ -1,0 +1,61 @@
+.todo-add {
+    margin: 16px 16px;
+    padding: 24px 12px;
+    border: lightseagreen solid 2px;
+    border-radius: 8px;
+    display: flex;
+    cursor: pointer;
+    background-color: lightseagreen;
+    color: #fefefe;
+}
+
+.text-normal {
+    padding-left: 16px;
+    flex: 1;
+}
+
+.label-normal {
+    padding-left: 16px;
+    flex: 1;
+}
+
+.add-input {
+    margin-left: 16px;
+    border: darkgrey solid 1px;
+    border-radius: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.modal {
+    display: block; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: auto;
+    top: 0;
+    width: 50%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.date-time-picker {
+    margin-left: 16px;
+    border: darkgrey solid 1px;
+    border-radius: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.icon-alarm {
+    color: orangered;
+}

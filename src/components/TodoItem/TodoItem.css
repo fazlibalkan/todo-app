@@ -1,0 +1,49 @@
+.todo-item {
+
+    margin: 16px;
+    padding: 12px;
+    display: flex;
+    border-radius: 8px;
+}
+
+.todo-item-done {
+    background-color: lightgreen;
+    border: lightgreen solid 2px;
+}
+
+
+.todo-item-not-done {
+    background-color: lightsalmon;
+    border: lightsalmon solid 2px;
+}
+
+.text-normal {
+    font-size: 20px;
+    padding-left: 16px;
+    flex: 1;
+    cursor: pointer;
+
+}
+
+.text-crossed {
+    font-size: 20px;
+    padding-left: 16px;
+    flex: 1;
+    text-decoration: line-through;
+    cursor: pointer;
+}
+
+.icon {
+    padding-left: 8px;
+    cursor: pointer;
+}
+
+.icon-delete .icon-edit {
+
+}
+
+.date-time-text {
+    color: #888888;
+    text-decoration: none;
+    font-size: 12px;
+}

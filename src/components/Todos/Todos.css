@@ -1,0 +1,10 @@
+.todos {
+    padding: 128px 360px;
+}
+
+@media screen and (max-width: 1100px) {
+    .todos {
+        padding: 128px 60px;
+    }
+
+}
